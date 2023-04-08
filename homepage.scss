@@ -1,0 +1,183 @@
+.navbar{
+    ul{
+        li{
+            a{
+                color: white ;
+            }
+        }
+    }
+}
+.navbar{
+    ul{
+        li{
+            a:hover{
+                color: gray ;
+            }
+        }
+    }
+}
+.navbar-toggler{
+    img{
+        width: 40px;
+        min-height: 40px;
+        
+    }
+}
+
+.pg1{
+  background-image: url(svg/bg.svg);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    min-height: 600px;
+}
+.navi {
+  height: 100%;
+  width: 200px;
+  color: white;
+  z-index: 1;
+  top: 0;
+  left: 0;
+ min-height: 600px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: black;
+  padding:  60px 3pxx;
+ 
+}
+
+.pg2{
+  background-color:  #272B30;
+  display: flex;
+}
+.navi{
+  ul {
+  list-style-type: none;
+}
+}
+.sorting {
+ 
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.sorting label {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.card{
+  width: 480px !important;
+  background-color: #141414;
+  height: 512px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  .cardzeda{
+  background-image: url(svg/card1.svg);
+  min-height: 240px;
+  color: white;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+}
+.card1{
+  .cardzeda{
+    background-image: url(svg/card1.svg );
+  }
+  
+}
+.card2{
+  .cardzeda{
+    background-image: url(svg/card3.svg);
+  }
+  
+}
+.card3{
+  .cardzeda{
+     background-image: url(svg/card4.svg);
+  }
+ 
+}
+.card4{
+  .cardzeda{
+    background-image: url(svg/card1.svg);
+  }
+  
+}
+.card-body{
+  ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  li{
+    margin-right: 32.5px;
+    text-align: center;
+  }  
+color: white;
+  }
+padding: 0;
+}
+.rame7{
+margin-left: 120px;
+}
+.rame8{
+  color: #3ACCE6 !important;
+}
+.li2{
+  margin-left: 110px;
+}
+.rame123{
+  color: #3ACCE6 !important;
+}
+.divi{
+  background-color: black;
+  ;
+  height: 60px;
+}
+.btn1{
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #3ACCE6;
+  background-color:#141414;
+  width: 200px;
+height: 32px;
+color: #3ACCE6;
+}
+.btn1:hover{
+background-color: #272B30;
+}
+.btn2{
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #141414;
+  background-color:#3ACCE6;
+  width: 200px;
+height: 32px;
+color: #141414;
+}
+.btn2:hover{
+  background-color: #5b8e97;
+  }
+.cardebidiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card2{
+  .cardzeda{
+    background-image: url(svg/card2.svg);
+
+  }
+}
+.card3{
+  .cardzeda{
+    background-image: url(svg/card3.svg);
+
+  }
+}
+.card4{
+  .cardzeda{
+    background-image: url(svg/card4.svg);
+
+  }
+}

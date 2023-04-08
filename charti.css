@@ -1,0 +1,376 @@
+.navbar ul li a {
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: gray;
+}
+
+.navbar-toggler img {
+  width: 40px;
+  min-height: 40px;
+}
+
+body {
+  background-color: #272B30;
+}
+
+.divisaxelis {
+  color: white;
+  margin-left: 118px;
+  display: flex;
+  justify-content: space-around;
+}
+.divisaxelis .marcxena {
+  display: flex;
+}
+.divisaxelis .marcxena .texti {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.divisaxelis .marjvena {
+  display: flex;
+  padding-top: 5px;
+}
+.divisaxelis .marjvena .projects {
+  background-color: #000000;
+  border-radius: 4px;
+  width: 76px;
+  height: 52px;
+  color: #00B96B;
+  box-shadow: 0px 4px 4px rgba(0, 185, 107, 0.25);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.divisaxelis .marjvena .Hackathons {
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(242, 189, 39, 0.25);
+  color: #F2BD27;
+  background-color: #000000;
+  width: 96px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.divisaxelis .marjvena .follower {
+  box-shadow: 0px 4px 4px rgba(58, 204, 230, 0.25);
+  color: #3ACCE6;
+  background-color: #000000;
+  width: 77px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 4px;
+}
+.divisaxelis .marjvena .following {
+  box-shadow: 0px 4px 4px rgba(158, 51, 159, 0.25);
+  color: #9E339F;
+  background-color: #000000;
+  width: 83px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 4px;
+}
+.divisaxelis .marjvena .likes {
+  color: #E0282E;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  width: 48px;
+  height: 52px;
+  box-shadow: 0px 4px 4px rgba(224, 40, 46, 0.25);
+  border-radius: 4px;
+  background-color: black;
+  text-align: center;
+}
+
+.rame {
+  margin-left: 20px;
+}
+
+.divi {
+  margin-top: 16px;
+  height: 60px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1677FF;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 4px;
+  align-items: center;
+  flex-direction: row;
+}
+.divi a {
+  text-decoration: none;
+  color: white;
+}
+.divi a:hover {
+  color: gray;
+}
+
+.divi2 {
+  background-color: #1677FF;
+  height: 60px;
+  max-width: 80%;
+  margin-top: 16px;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown button {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.ranki {
+  background-color: black;
+  display: flex;
+  max-width: 80%;
+  height: 150px;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+.ranki .rankimeore {
+  color: #3ACCE6;
+}
+.ranki .rankikideerti {
+  color: #CED4DA;
+}
+
+.dididivi {
+  padding-top: 16px;
+  margin-left: 10%;
+  display: flex;
+}
+
+.earnings {
+  background-color: black;
+  display: flex;
+  max-width: 80%;
+  height: 150px;
+  justify-content: space-around;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+.earnings .earnings1 {
+  color: #00B96B;
+  text-align: center;
+}
+.earnings .earnings2 {
+  color: #F4801A;
+  text-align: center;
+}
+
+.didimarcxena {
+  width: 50%;
+}
+
+.didimarjvena {
+  width: 50%;
+}
+
+.xp {
+  background-color: black;
+  display: flex;
+  max-width: 77%;
+  height: 126px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+}
+.xp .bari {
+  width: 90%;
+  background-color: #3ACCE6;
+  height: 16px;
+  border-radius: 8px;
+}
+.xp .lvl5 {
+  text-align: center;
+  color: white;
+}
+.xp .lvl6 {
+  text-align: center;
+  color: white;
+}
+
+#myChart {
+  width: 550px !important;
+  height: 250px !important;
+}
+
+.achievebi {
+  color: #00B96B;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.achievebi .erti {
+  text-align: center;
+}
+
+@media (max-width: 1255px) {
+  .canvasi {
+    display: none;
+  }
+}
+@media (max-width: 815px) {
+  .divisaxelis {
+    display: none;
+  }
+  .achievebi {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 667px) {
+  .didimarjvena {
+    display: none;
+  }
+  .didimarcxena {
+    width: 100%;
+  }
+  .divi2 {
+    max-width: 90%;
+  }
+  .earnings {
+    width: 90%;
+    max-width: 90%;
+  }
+  .ranki {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+footer {
+  margin-top: 30px;
+  min-height: 324px;
+  background-color: black;
+  display: flex;
+}
+
+.logosdivi {
+  position: absolute;
+  max-width: 155px;
+  margin-top: 131px;
+  margin-left: 136px;
+}
+.logosdivi .divipatara {
+  text-align: center;
+  margin-top: 10px;
+}
+.logosdivi .divipatara img {
+  margin-left: 5px;
+}
+
+.row {
+  width: 80%;
+}
+.row ul h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.container {
+  margin-left: 400px;
+}
+
+@media (max-width: 1200px) {
+  .linkebi {
+    flex-wrap: wrap;
+  }
+  .container {
+    text-align: center;
+    margin: auto;
+  }
+  .container .row {
+    justify-content: space-between;
+    display: flex;
+  }
+  .logosdivi {
+    display: none;
+  }
+}
+.col-md-3 {
+  padding-top: 20px;
+}
+.col-md-3 h5 {
+  color: #EFF2F7;
+}
+.col-md-3 ul li a {
+  text-decoration: none;
+  color: #EFF2F7;
+}
+
+.infoebi3 .txtdiv3 h1 {
+  font-family: Helvetica Neue;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.infoebi2 .txtdiv2 h1 {
+  font-family: Helvetica Neue;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-3 {
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .row {
+    width: auto !important;
+  }
+}/*# sourceMappingURL=charti.css.map */
